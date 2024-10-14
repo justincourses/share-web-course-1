@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 via-sky-200 to-amber-100 bg-[url('/bg.jpg')] bg-cover bg-fixed">
+    class="w-full flex flex-col items-center justify-center min-h-screen bg-[url('/bg.jpg')] bg-cover bg-fixed">
     <div
       class="mb-4 px-4 py-2 rounded-full border border-white/20 backdrop-blur-sm bg-black/50 shadow-[0_0_15px_rgba(255,255,255,0.3)] animate-pulse">
       <span class="flex items-center text-white">
