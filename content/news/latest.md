@@ -1,6 +1,12 @@
 ---
-title: 'Title of the page'
-description: 'meta description of the page'
+title: 'Latest'
+description: 'Latest news'
 ---
 
-# Here is the content of latest news
+# Latest news
+
+Latest story of the day
+
+## AI is insane
+
+AI is insane
