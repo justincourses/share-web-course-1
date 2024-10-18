@@ -8,15 +8,11 @@
           </li>
           <li class="text-gray-500">|</li>
           <li>
-            <NuxtLink to="/features" class="hover:text-white">Features</NuxtLink>
+            <NuxtLink to="/links" class="hover:text-white">Links</NuxtLink>
           </li>
           <li class="text-gray-500">|</li>
           <li>
-            <NuxtLink to="/partners" class="hover:text-white">Partners</NuxtLink>
-          </li>
-          <li class="text-gray-500">|</li>
-          <li>
-            <NuxtLink to="/faq" class="hover:text-white">FAQ</NuxtLink>
+            <NuxtLink to="/about" class="hover:text-white">About</NuxtLink>
           </li>
         </ul>
       </nav>

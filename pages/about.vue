@@ -3,17 +3,16 @@
     <FeaturesWaitlistLabelMini />
     <CommonTitlePrimary />
     <FeaturesWaitlistBoxContainer>
-      <FeaturesWaitlistBoxHeader />
-      <FeaturesWaitlistBoxDescription />
-      <FeaturesWaitlistBoxJoinButton />
+      <p>I am about page</p>
+      <UButton to="/" variant="solid"
+        class="px-6 mt-2 bg-white/70 text-black hover:bg-gray-200/70 transition-colors duration-300 relative z-10">
+        回到首页
+      </UButton>
     </FeaturesWaitlistBoxContainer>
   </div>
 </template>
 
 <script setup>
-definePageMeta({
-  layout: 'waitlist',
-});
 </script>
 
 <style>
