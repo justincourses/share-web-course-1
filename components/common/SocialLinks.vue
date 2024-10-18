@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8 flex space-x-4">
+  <div class="common-social-links flex space-x-4 items-center justify-center">
     <a title="关注 X@interjc" href="https://x.com/interjc" target="_blank" rel="noopener noreferrer" class="text-2xl">
       <UIcon name="i-simple-icons-x" />
     </a>
@@ -12,3 +12,9 @@
     </a>
   </div>
 </template>
+
+<style>
+.common-social-links {
+  height: 40px;
+}
+</style>

@@ -1,6 +1,5 @@
 <template>
-  <div
-    class="w-full flex flex-col items-center justify-center min-h-screen bg-[url('/bg.jpg')] bg-cover bg-fixed">
+  <div class="pages-waitlist flex flex-col items-center justify-center">
     <FeaturesWaitlistLabelMini />
     <CommonTitlePrimary />
     <FeaturesWaitlistBoxContainer>
@@ -8,8 +7,13 @@
       <FeaturesWaitlistBoxDescription />
       <FeaturesWaitlistBoxJoinButton />
     </FeaturesWaitlistBoxContainer>
-    <CommonSocialLinks />
   </div>
 </template>
 
 <script setup></script>
+
+<style>
+.pages-waitlist {
+  min-height: calc(100vh - 100px);
+}
+</style>
