@@ -14,6 +14,10 @@
           <li>
             <NuxtLink to="/about" class="hover:text-white">About</NuxtLink>
           </li>
+          <li class="text-gray-500">|</li>
+          <li>
+            <NuxtLink to="/news" class="hover:text-white">News</NuxtLink>
+          </li>
         </ul>
       </nav>
     </div>
