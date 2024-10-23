@@ -69,7 +69,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out this [link](https://vscode.js.cn/docs/sourcecontrol/overview) to learn how to use the source control in VSCode.
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
