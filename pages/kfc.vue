@@ -17,10 +17,8 @@ const randomArticle = ref(null);
 
 // 获取文章总数
 const count = await queryContent('kfc').count();
-console.log(`count`, count);
 
 const randomIndex = Math.floor(Math.random() * count);
-console.log(`randomIndex`, randomIndex);
 
 const articles = await queryContent('kfc')
   .limit(1)
