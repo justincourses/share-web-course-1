@@ -15,17 +15,23 @@ definePageMeta({
 
 const randomArticle = ref(null);
 
-// 获取文章总数
-const count = await queryContent('kfc').count();
+const fetchedArticle = async () => {
+  // 获取文章总数
+  const count = await queryContent('kfc').count();
 
-const randomIndex = Math.floor(Math.random() * count);
+  const randomIndex = Math.floor(Math.random() * count);
 
-const articles = await queryContent('kfc')
-  .limit(1)
-  .skip(randomIndex)
-  .find();
+  const articles = await queryContent('kfc')
+    .limit(1)
+    .skip(randomIndex)
+    .find();
 
-randomArticle.value = articles[0];
+  randomArticle.value = articles[0];
+}
+
+onMounted(async () => {
+  await fetchedArticle();
+});
 </script>
 
 <style>
