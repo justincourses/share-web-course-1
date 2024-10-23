@@ -5,12 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxt/content"],
   app: {
     head: {
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.7.0/github-markdown.min.css",
-        },
-      ],
+      link: [{ rel: "stylesheet", href: "/github-markdown.css" }],
     },
   },
 });

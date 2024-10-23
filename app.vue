@@ -1,17 +1,16 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useHead } from '#imports'
-
 useHead({
-  title: '默认站点标题',
-  meta: [
-    { hid: 'description', name: 'description', content: '这是默认的站点描述' }
-  ]
+  // as a string,
+  // where `%s` is replaced with the title
+  titleTemplate: `%s - Justin's Web Courses Examples`,
 })
 </script>
