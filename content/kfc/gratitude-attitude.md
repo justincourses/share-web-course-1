@@ -4,7 +4,7 @@ date: 2023-05-01
 author: "Dale Carnegie"
 description: "探讨培养感恩心态的重要性，以及如何在日常生活中实践感恩。"
 tags: ["感恩", "积极心态", "幸福感"]
-image: "/kfc/gratitude-attitude.jpg"
+image: "/image001.webp"
 ---
 
 # 感恩的心态

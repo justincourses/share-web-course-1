@@ -4,7 +4,7 @@ date: 2023-04-25
 author: "Dale Carnegie"
 description: "探讨如何正确设定目标并坚持不懈地实现它们。"
 tags: ["目标设定", "自我管理", "成功"]
-image: "/kfc/goal-setting.jpg"
+image: "/bg.jpg"
 ---
 
 # 设定目标，实现梦想

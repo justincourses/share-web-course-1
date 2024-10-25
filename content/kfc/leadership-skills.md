@@ -4,7 +4,7 @@ date: 2023-04-28
 author: "Dale Carnegie"
 description: "探讨如何培养和提升领导力，成为一个优秀的团队领导者。"
 tags: ["领导力", "团队管理", "个人发展"]
-image: "/kfc/leadership-skills.jpg"
+image: "/bg.jpg"
 ---
 
 # 卓越领导力的培养

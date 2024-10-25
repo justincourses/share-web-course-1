@@ -4,7 +4,7 @@ date: 2023-04-22
 author: "Dale Carnegie"
 description: "探讨积极态度如何改变人生，以及培养积极思维的方法。"
 tags: ["积极思维", "自我提升", "心态"]
-image: "/kfc/positive-attitude.jpg"
+image: "/image001.webp"
 ---
 
 # 积极态度的力量

@@ -4,7 +4,7 @@ date: 2023-04-30
 author: "Dale Carnegie"
 description: "探讨个人成长的重要性，以及如何保持持续学习和进步的态度。"
 tags: ["个人成长", "终身学习", "自我提升"]
-image: "/kfc/personal-growth.jpg"
+image: "/bg.jpg"
 ---
 
 # 持续成长的力量
