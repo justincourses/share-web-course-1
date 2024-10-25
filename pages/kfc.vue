@@ -13,19 +13,22 @@ definePageMeta({
   layout: 'kfc'
 });
 
-const randomArticle = ref(null);
+const randomArticle = useState('randomArticle', () => null);
 
-// 获取文章总数
-const count = await queryContent('kfc').count();
+const fetchRandomArticle = async () => {
+  // 获取文章总数
+  const count = await queryContent('kfc').count();
+  const randomIndex = Math.floor(Math.random() * count);
 
-const randomIndex = Math.floor(Math.random() * count);
+  const articles = await queryContent('kfc')
+    .limit(1)
+    .skip(randomIndex)
+    .find();
 
-const articles = await queryContent('kfc')
-  .limit(1)
-  .skip(randomIndex)
-  .find();
+  randomArticle.value = articles[0];
+};
 
-randomArticle.value = articles[0];
+onMounted(fetchRandomArticle);
 </script>
 
 <style>
