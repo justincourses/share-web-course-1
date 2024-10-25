@@ -4,7 +4,7 @@ date: 2023-04-23
 author: "Dale Carnegie"
 description: "探讨如何通过有效沟通来改善人际关系和提高工作效率。"
 tags: ["沟通", "人际关系", "领导力"]
-image: "/kfc/effective-communication.jpg"
+image: "/bg.jpg"
 ---
 
 # 有效沟通的艺术

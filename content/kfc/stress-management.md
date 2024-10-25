@@ -4,7 +4,7 @@ date: 2023-04-29
 author: "Dale Carnegie"
 description: "探讨如何有效管理和缓解压力，保持身心健康。"
 tags: ["压力管理", "心理健康", "生活平衡"]
-image: "/kfc/stress-management.jpg"
+image: "/bg.jpg"
 ---
 
 # 应对压力的智慧

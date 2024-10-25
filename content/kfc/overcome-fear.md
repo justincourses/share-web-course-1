@@ -4,7 +4,7 @@ date: 2023-04-24
 author: "Dale Carnegie"
 description: "探讨如何克服恐惧心理，勇敢面对生活中的各种挑战。"
 tags: ["克服恐惧", "自我成长", "勇气"]
-image: "/kfc/overcome-fear.jpg"
+image: "/bg.jpg"
 ---
 
 # 战胜恐惧，拥抱挑战

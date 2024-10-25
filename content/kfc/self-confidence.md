@@ -4,7 +4,7 @@ date: 2023-04-26
 author: "Dale Carnegie"
 description: "探讨如何建立和提升自信心，在生活中更好地展现自我。"
 tags: ["自信", "自我提升", "个人成长"]
-image: "/kfc/self-confidence.jpg"
+image: "/bg.jpg"
 ---
 
 # 培养自信，绽放光芒

@@ -4,7 +4,7 @@ date: 2023-04-27
 author: "Dale Carnegie"
 description: "探讨如何有效管理时间，提高工作效率和生活质量。"
 tags: ["时间管理", "效率", "生活质量"]
-image: "/kfc/time-management.jpg"
+image: "/bg.jpg"
 ---
 
 # 时间管理的智慧
