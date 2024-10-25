@@ -16,8 +16,10 @@
             />
           </div>
           <ContentRendererMarkdown :value="randomArticle" />
-          <div class="tags">
-            <span v-for="tag in randomArticle.tags" :key="tag" class="tag">{{ tag }}</span>
+          <div class="tags mt-4">
+            <span v-for="tag in randomArticle.tags" :key="tag" class="label inline-block bg-gray-700 bg-opacity-50 text-gray-300 text-xs px-2 py-1 rounded-full mr-2 mb-2 shadow-sm hover:shadow-md transition-all duration-300 ease-in-out">
+              #{{ tag }}
+            </span>
           </div>
         </ContentRenderer>
       </div>
