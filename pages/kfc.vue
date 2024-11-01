@@ -39,7 +39,7 @@ const { refreshRandomKfc } = useRandomKfc()
 const randomArticle = useState('randomArticle', () => null);
 const loading = ref(true);
 
-const randomArticleImage = ref('https://picsum.photos/900/300');
+const randomArticleImage = computed(() => `https://picsum.photos/900/300?random=${Math.random()}`);
 
 const fetchRandomArticle = async () => {
   loading.value = true;
