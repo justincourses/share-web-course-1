@@ -9,7 +9,7 @@
         <ContentRenderer :value="randomArticle">
           <div class="header-image-container rounded-lg overflow-hidden" style="position: relative; width: 100%; padding-top: 33.33%;">
             <img
-              :src="randomArticle.image"
+              :src="randomArticleImage"
               :alt="randomArticle.title"
               class="transition-opacity duration-300 hover:opacity-80"
               style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;"
@@ -23,7 +23,7 @@
           </div>
         </ContentRenderer>
       </div>
-      <button @click="refreshContent" class="mt-8 px-6 py-2 bg-transparent text-gray-300 border border-gray-300 rounded hover:bg-gray-300 hover:text-gray-800 transition-all duration-300 ease-in-out opacity-80 hover:opacity-100">
+      <button @click="handleRefresh" class="mt-8 px-6 py-2 bg-transparent text-gray-300 border border-gray-300 rounded hover:bg-gray-300 hover:text-gray-800 transition-all duration-300 ease-in-out opacity-80 hover:opacity-100">
         焕新心灵
       </button>
     </FeaturesWaitlistBoxContainer>
@@ -34,15 +34,20 @@
 definePageMeta({
   layout: 'kfc'
 });
+const { refreshRandomKfc } = useRandomKfc()
 
 const randomArticle = useState('randomArticle', () => null);
 const loading = ref(true);
+
+const randomArticleImage = ref('https://picsum.photos/900/300');
 
 const fetchRandomArticle = async () => {
   loading.value = true;
   // 获取文章总数
   const count = await queryContent('kfc').count();
   const randomIndex = Math.floor(Math.random() * count);
+
+  refreshRandomKfc()
 
   const articles = await queryContent('kfc')
     .limit(1)
@@ -53,12 +58,9 @@ const fetchRandomArticle = async () => {
   loading.value = false;
 };
 
-const refreshContent = () => {
-  loading.value = true;
-  setTimeout(() => {
-    fetchRandomArticle();
-  }, 1500);
-};
+const handleRefresh = () => {
+  fetchRandomArticle()
+}
 
 onMounted(fetchRandomArticle);
 </script>
